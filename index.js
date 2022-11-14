@@ -46,3 +46,10 @@ console.log(result);
 const getPerim = function (side1, side2) {
   return summa(side1, side2) * 2;
 };
+
+
+const highOrderFunction = function (val1, val2, func) {
+    return func(val1, val2)
+}
+
+console.log(highOrderFunction(7,5,mult))
