@@ -82,3 +82,26 @@
 //     }
 // }
 
+const PIN_CODE = "1111";
+// let count = 0
+// while (true) {
+//     const result = promt("enter PIN_CODE");
+//     count++
+//     if (count > 3) {
+//         console.log('error')
+//         break
+//     }
+//   if (result === PIN_CODE) {
+//     console.log("welcome");
+//     break;
+//   }
+// }
+// console.log(count)
+// for (let i = 0; i < 4; i++) {
+//   const result = promt("enter PIN_CODE");
+//   if (result === PIN_CODE) {
+//     console.log("welcome");
+//     break;
+//   }
+//   if (i === 3) console.log("error");
+// }
