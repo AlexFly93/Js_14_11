@@ -1,107 +1,36 @@
-// const summa = function (num1, num2) {
-//   return num1 + num2;
-// };
-// const substr = function (num1, num2) {
-//   return num1 - num2;
-// };
-// const mult = function (num1, num2) {
-//   return num1 * num2;
-// };
-// const div = function (num1, num2) {
-//   return num1 / num2;
-// };
+// homework
+// 1) Запитувати у користувача число до тих пір, доки воно не буде більше 15 і менше 35 і кратне 6 (18,24,30 підходить)
+// В користувача є 3 спроби
 
-// function calculate(num1 = 10, num2 = 2, operator = "+") {
-//   if (isNaN(num1 - num2)) {
-//     return null;
-//   }
-//   let f = null;
-//   switch (operator) {
-//     case "+":
-//       f = summa;
-//       break;
-//     case "-":
-//       f = substr;
-//       break;
-//     case "/":
-//       f = div;
-//       break;
-//     case "*":
-//       f = mult;
-//       break;
-//     default:
-//       f = null;
-//       break;
-//   }
-//   if (typeof f === "function") {
-//     return f(num1, num2);
-//   }
+// зробити двома способами через while і for
 
-//   return null;
+// * це повинна бути функція(можливо і не одна)
+
+// Classwork
+
+// const START_YEAR = 1992;
+// const END_YEAR = 2400;
+// for (let i = START_YEAR; i <= END_YEAR; i++) {
+//   if (i % 4 === 0 && (i % 100 !== 0 || i % 400 === 0))
+//     console.log(i);
 // }
-
-// const result = calculate();
-// console.log(result);
-
-// const getPerim = function (side1, side2) {
-//   return summa(side1, side2) * 2;
-// };
-
-// const highOrderFunction = function (val1, val2, func) {
-//     return func(val1, val2)
-// }
-
-// console.log(highOrderFunction(7, 5, mult))
-
-// let count = 0;
-// while (true) {
-// //   if (count % 2 === 0) {
-// //     console.log(count);
-// //   }
-//   if (count % 2 === 1) {
-//     count++;
-//     continue;
-//   }
-//   console.log(count);
-//   count++;
-//   if (count >= 5) {
-//     break;
-//   }
-//   // count++
-// }
-// console.log("end");
-
-// for (let i = 0; i < 5; i++) {
-//   console.log(i);
-// }
-
-// while (true) {
-//     const result = promt('enter 456')
-//     if (result === '456') {
-//         break
+// const EnterYourNumber = function () {
+//   while (true) {
+//     const num = prompt("enter your number");
+//     if (isNaN(Number(num)) || num === null || num === "" || num === " ") {
+//       continue;
 //     }
+//     return num;
+//   };
 // }
+// console.log(EnterYourNumber());
 
-const PIN_CODE = "1111";
-// let count = 0
-// while (true) {
-//     const result = promt("enter PIN_CODE");
-//     count++
-//     if (count > 3) {
-//         console.log('error')
-//         break
+// const EnterYourNumber = function () {
+//   while (true) {
+//     const num = prompt("enter your number");
+//     if (isNaN(Number(num)) === false && num !== null && num !== "" && num !== " ") {
+//       return Number(num);
 //     }
-//   if (result === PIN_CODE) {
-//     console.log("welcome");
-//     break;
 //   }
-// }
-// console.log(count)
-// for (let i = 0; i < 4; i++) {
-//   const result = promt("enter PIN_CODE");
-//   if (result === PIN_CODE) {
-//     console.log("welcome");
-//     break;
-//   }
-//   if (i === 3) console.log("error");
-// }
+// };
+// console.log(EnterYourNumber());
