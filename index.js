@@ -34,3 +34,45 @@
 //   }
 // };
 // console.log(EnterYourNumber());
+
+// const nameProduct = 't-short'
+// const priceProduct = 456
+
+// способы создать обьект
+// const product1 = new Object()
+// const product2 = Object()
+
+// const product = {
+//   name: "t-short",
+//   price: 456,
+//   currency: "$",
+//   isHas: true,
+//   amount: 12,
+//   size: undefined,
+//   pocket: null,
+//   logProduct: function () {
+//     console.log("name", product.name);
+//   },
+// };
+// console.log(product)
+// product.collor = "red";
+// delete product.size;
+
+// const Ukraine = {
+//   name: 'Ukraine',
+//   area: 603700,
+//   population: 43810000,
+//   logPopulatinoPerSquare: function () {
+//     console.log("population per 1km", this.population / this.area);
+//   },
+// };
+// Ukraine.logPopulatinoPerSquare();
+
+// function Country(name, area, population) {
+//   this.name = name;
+//   this.area = area;
+//   this.population = population;
+// }
+
+// const country = new Country("Ukraine", 603700, 43810000);
+// console.log(country);
